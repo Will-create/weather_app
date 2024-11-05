@@ -1,5 +1,5 @@
-use std::{fmt::format, io};
-use reqwest::Error;
+use std::io;
+use reqwest;
 use serde::Deserialize;
 use colored::*;
 use dotenv::dotenv;
